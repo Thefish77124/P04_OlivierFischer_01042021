@@ -685,6 +685,8 @@ p {
     font-style: italic;
 }
 
+/* début sélecteurs créés par moi*/
+
 .margin-top-1{
     margin-top: 1px;
 }
@@ -692,6 +694,12 @@ p {
 .margin-bottom-1{
     margin-bottom: 1px;
 }
+
+.bolder{
+    font-weight: bolder;
+}
+
+/* fin sélecteurs créés par moi*/
 
 .tight-width-whitespace {
     max-width: 600px;
