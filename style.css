@@ -6,6 +6,58 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/* début sélecteurs créés par moi*/
+
+.couleur_lien{
+    color: #0000d8!important;
+    text-decoration: underline;
+}
+
+.texte_image{
+    color: #575757;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+
+.texte_image_italic{
+    color: #575757;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 1.5rem;   
+}
+.texte_image_petit{
+    color: #575757;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;   
+}
+.texte_image_grand{
+    color: #575757;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;   
+}
+
+.black-background2{
+        background-color: rgba(64, 64,64, 0.7);
+        padding: 40px 40px 40px 40px;
+}
+
+.margin-top-1{
+    margin-top: 1px;
+}
+
+.margin-bottom-1{
+    margin-bottom: 1px;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+/* fin sélecteurs créés par moi*/
 
 a,
 button {
@@ -685,21 +737,7 @@ p {
     font-style: italic;
 }
 
-/* début sélecteurs créés par moi*/
 
-.margin-top-1{
-    margin-top: 1px;
-}
-
-.margin-bottom-1{
-    margin-bottom: 1px;
-}
-
-.bolder{
-    font-weight: bolder;
-}
-
-/* fin sélecteurs créés par moi*/
 
 .tight-width-whitespace {
     max-width: 600px;
