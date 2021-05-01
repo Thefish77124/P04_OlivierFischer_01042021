@@ -39,6 +39,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5rem;   
 }
+.texte_helvetica_grand{
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;   
+}
 
 .black-background2{
         background-color: rgba(64, 64,64, 0.7);
