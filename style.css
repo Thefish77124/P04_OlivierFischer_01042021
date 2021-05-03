@@ -20,12 +20,8 @@ body {
     line-height: 1.5rem;
 }
 
-.texte_image_italic{
-    color: #575757;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.italic{
     font-style: italic;
-    line-height: 1.5rem;   
 }
 .texte_image_petit{
     color: #575757;
@@ -44,22 +40,49 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5rem;   
 }
-
+.texte_helvetica_petit{
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1rem;   
+}
 .black-background2{
         background-color: rgba(64, 64,64, 0.7);
         padding: 40px 40px 40px 40px;
 }
-
-.margin-top-1{
-    margin-top: 1px;
+.texte_contact{
+    margin-top: 20px;
 }
 
-.margin-bottom-1{
-    margin-bottom: 1px;
+@media (max-width: 768px) {
+    .texte_image {
+        font-size: 15px;
+        line-height: 2rem;
+    }
+    .texte_image_grand {
+        color: #575757;
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    .img-responsive{
+        display: inline-block;
+    }
+    .h1 h1{
+        font-size: 28px;
+    }
+    .h2 h2{
+        font: 24px;
+    }
+    .h3 h3{
+        font-size: 20px;
+    }
+    .hero-bloc-text {
+        font-size: 28px;
+    }
 }
-
-.bolder{
-    font-weight: bolder;
+@media (min-width: 768px){
+    .col-sm-6{
+        float: none;
+    }
 }
 
 /* fin sélecteurs créés par moi*/
