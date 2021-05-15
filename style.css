@@ -84,11 +84,6 @@ body {
         font-size: 28px;
     }
 }
-@media (min-width: 768px){
-    .col-sm-6{
-        float: none;
-    }
-}
 
 /* fin sélecteurs créés par moi*/
 
